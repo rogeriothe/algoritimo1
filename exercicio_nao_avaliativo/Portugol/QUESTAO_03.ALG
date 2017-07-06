@@ -1,5 +1,4 @@
 Algoritmo "Questao_03"
-
 Var
    num: real
 Inicio
