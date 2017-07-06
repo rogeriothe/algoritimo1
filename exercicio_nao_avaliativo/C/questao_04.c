@@ -1,7 +1,7 @@
 #include <conio.h>
 #include <stdio.h>
 
-void main()
+int main()
 {
 	float salario, valor_emprestimo, num_parcelas;
 	
@@ -22,5 +22,5 @@ void main()
 	{
 		printf("Emprestimo aprovado");		
 	}
-
+	return 0;
 }
