@@ -1,40 +1,60 @@
 #include <stdio.h>
 
-int main(int argc, char** argv)
+float calcula(float salario)
 {
-	float salario, desconto;
-	printf("Digite seu salario:\n");
-	scanf("%f", &salario);
+	float desconto;
 	
 	
 	if(salario <= 600.00)
 	{
-	   	printf("Isento de desconto.");		
+	   	return 0;		
 	}
 	else
 	{
 		if((salario > 600.00)&(salario <= 1200.00))
 		{
 			desconto = salario * 0.2;
-			printf("Desconto: %f", desconto);
+			return desconto;
 		}
 		else
 		{
 			if((salario > 1200.00)&(salario <= 2000.00))
 			{
 				desconto = salario * 0.25;
-				printf("Desconto: %f", desconto);
+				return desconto;
 			}
 			else
 			{
 					if(salario > 2000.00)
 					{
 						desconto = salario * 0.30;
-						printf("Desconto: %f", desconto);
+						return desconto;
 					}
 			}	
 		}
 	}
 	
+	return 0;
+}
+
+
+int main(int argc, char** argv)
+{
+	
+	int cont = 0;
+	
+	while(cont < 20)
+	{
+		float sal, desc;
+		printf("Digite o salario:\n");
+		scanf("%f", &sal);
+		
+		desc = calcula(sal);
+		printf("%f\n", desc);
+
+		cont++;
+	
+	}	
+		
 	return 0;
 }
