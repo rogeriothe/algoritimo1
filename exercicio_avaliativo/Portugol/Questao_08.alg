@@ -2,7 +2,8 @@ Algoritmo "Questao_08"
 // Disciplina :  Algoritimos e Programação I
 // Professor : Arlino Henrique Magalhães de Araújo
 // Aluno : Rogério de Lima Sousa
-
+// Disponível no repositório do aluno:
+// https://github.com/rogeriothe/algoritimo1/tree/master/exercicio_avaliativo
 Var
    cont: inteiro
    sal, desc: real

@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+// Disciplina :  Algoritimos e Programação I
+// Professor : Arlino Henrique Magalhães de Araújo
+// Aluno : Rogério de Lima Sousa
+// Disponível no repositório do aluno:
+// https://github.com/rogeriothe/algoritimo1/tree/master/exercicio_avaliativo
 int main(int argc, char** argv)
 {	
 	int num;

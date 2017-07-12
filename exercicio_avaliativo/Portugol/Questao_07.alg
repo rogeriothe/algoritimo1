@@ -2,6 +2,8 @@ Algoritmo "Questao_07"
 // Disciplina :  Algoritimos e Programação I
 // Professor : Arlino Henrique Magalhães de Araújo
 // Aluno : Rogério de Lima Sousa
+// Disponível no repositório do aluno:
+// https://github.com/rogeriothe/algoritimo1/tree/master/exercicio_avaliativo
 Var
    num, cont, temp, total: inteiro
 Inicio
@@ -18,7 +20,7 @@ Inicio
       total <- total + temp
       cont <- cont + 1
    fimenquanto
-   
+
    escreval("O total: ", total)
 
 Fimalgoritmo

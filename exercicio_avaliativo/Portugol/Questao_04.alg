@@ -2,17 +2,19 @@ Algoritmo "Questao_04"
 // Disciplina :  Algoritimos e Programação I
 // Professor : Arlino Henrique Magalhães de Araújo
 // Aluno : Rogério de Lima Sousa
+// Disponível no repositório do aluno:
+// https://github.com/rogeriothe/algoritimo1/tree/master/exercicio_avaliativo
 Var
    peso, altura, imc: Real
 Inicio
-	escreval("Digite seu peso em Kilos:")
-	leia(peso)
+   escreval("Digite seu peso em Kilos:")
+   leia(peso)
 
-	escreval("Digite sua altura em Metros:")
-	leia(altura)
+   escreval("Digite sua altura em Metros:")
+   leia(altura)
 
-	imc <- peso / (altura * altura)
-	
+   imc <- peso / (altura * altura)
+
    escreval(imc)
 
    se imc < 20 entao
@@ -27,12 +29,12 @@ Inicio
             se (imc >= 30) e (imc < 35) entao
                escreval("Voce esta com obesidade")
             senao
-              se imc > 35 entao
-               escreval("Voce esta com obesidade morbida")
-              fimse
+               se imc > 35 entao
+                  escreval("Voce esta com obesidade morbida")
+               fimse
             fimse
          fimse
       fimse
    fimse
-	
+
 Fimalgoritmo
